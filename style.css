@@ -399,6 +399,9 @@
 .courses_list_item_main {
   padding: 1rem 0.5rem;
   display: flex;
+  cursor: pointer;
+  position: relative;
+  z-index: 20;
 }
 .courses_list_item_detail {
   width: 100%;
